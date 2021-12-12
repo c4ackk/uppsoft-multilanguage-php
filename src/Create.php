@@ -2,7 +2,7 @@
 
 namespace UppSoft\MultiLanguage;
 
-class Create{
+public class Create{
 	static function folder(){
 		if(!file_exists($_SERVER['DOCUMENT_ROOT']."/lang/config/Set.php")){
 			mkdir($_SERVER['DOCUMENT_ROOT']."/lang/",0777);
